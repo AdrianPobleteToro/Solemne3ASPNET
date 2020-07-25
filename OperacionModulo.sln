@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OperacionModulo", "OperacionModulo\", "{00D397E6-CDC9-4A61-A20F-ADC6069F0BF7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57302"
+		Debug.AspNetCompiler.PhysicalPath = "OperacionModulo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57302\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57302"
+		Release.AspNetCompiler.PhysicalPath = "OperacionModulo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57302\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57302"
+		SlnRelativePath = "OperacionModulo\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente", "Cliente\Cliente.csproj", "{B7EC92CE-259C-4293-BF10-A89A41F4D621}"
+	ProjectSection(ProjectDependencies) = postProject
+		{00D397E6-CDC9-4A61-A20F-ADC6069F0BF7} = {00D397E6-CDC9-4A61-A20F-ADC6069F0BF7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00D397E6-CDC9-4A61-A20F-ADC6069F0BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D397E6-CDC9-4A61-A20F-ADC6069F0BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D397E6-CDC9-4A61-A20F-ADC6069F0BF7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D397E6-CDC9-4A61-A20F-ADC6069F0BF7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B7EC92CE-259C-4293-BF10-A89A41F4D621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EC92CE-259C-4293-BF10-A89A41F4D621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EC92CE-259C-4293-BF10-A89A41F4D621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EC92CE-259C-4293-BF10-A89A41F4D621}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B30341C-1D3F-467B-93B0-654469361FB7}
+	EndGlobalSection
+EndGlobal
